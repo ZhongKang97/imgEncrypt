@@ -13,7 +13,7 @@ int main(int argc, char** argv)
 		//Mat img_show = cv::imread(agrv[1]);
 		//Mat img_encrypt = cv::imread(argv[2]);
 		Mat img_show = cv::imread("D:\\CODEing\\DataSets\\OpenCV_data\\MyData\\Clannad_2.jpg");
-		Mat img_encrypt = cv::imread("D:\\CODEing\\DataSets\\OpenCV_data\\MyData\\Clannad_4.jpg");
+		Mat img_encrypt = cv::imread("D:\\CODEing\\DataSets\\OpenCV_data\\MyData\\Clannad_3.jpg");
 		int encrypt_width = img_encrypt.cols;
 		int encrypt_hight = img_encrypt.rows;
 		imshow("Img to show", img_show);
